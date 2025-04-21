@@ -1,0 +1,30 @@
+{
+  "thingsboard": {
+    "access_token": "YOUR_THINGSBOARD_ACCESS_TOKEN",
+    "mqtt_broker": "mqtt://broker.hivemq.com",
+    "mqtt_port": 1883
+  },
+  "sensors": {
+    "temperature": {
+      "publish_frequency": 5,
+      "min_value": 15,
+      "max_value": 30
+    },
+    "co2": {
+      "publish_frequency": 5,
+      "min_value": 300,
+      "max_value": 1000
+    }
+  },
+  "roles": {
+    "admin": {
+      "permissions": ["full_access"]
+    },
+    "operator": {
+      "permissions": ["view_dashboard", "modify_widgets"]
+    },
+    "viewer": {
+      "permissions": ["view_dashboard"]
+    }
+  }
+}
