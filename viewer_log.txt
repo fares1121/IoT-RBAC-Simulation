@@ -1,0 +1,34 @@
+[INFO] Charlie@group9.com - Authenticated successfully
+
+=== Charlie@group9.com - User Profile ===
+{
+    "id": {
+        "entityType": "USER",
+        "id": "aa9c0fb0-208c-11f0-bb30-f9e4c4d29f01"
+    },
+    "createdTime": 1745444897835,
+    "tenantId": {
+        "entityType": "TENANT",
+        "id": "2dbc6d90-2088-11f0-bb30-f9e4c4d29f01"
+    },
+    "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "70272810-208c-11f0-bb30-f9e4c4d29f01"
+    },
+    "email": "Charlie@group9.com",
+    "authority": "CUSTOMER_USER",
+    "firstName": null,
+    "lastName": null,
+    "phone": null,
+    "version": 1,
+    "name": "Charlie@group9.com",
+    "additionalInfo": {
+        "description": "",
+        "defaultDashboardId": null,
+        "defaultDashboardFullscreen": false,
+        "homeDashboardId": null,
+        "homeDashboardHideToolbar": true
+    }
+}
+[INFO] Charlie@group9.com - Using /customer/70272810-208c-11f0-bb30-f9e4c4d29f01/devices
+[INFO] Charlie@group9.com - Retrieved 0 device(s)

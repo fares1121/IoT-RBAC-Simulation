@@ -1,0 +1,62 @@
+[INFO] Bob@group9.com - Authenticated successfully
+
+=== Bob@group9.com - User Profile ===
+{
+    "id": {
+        "entityType": "USER",
+        "id": "921fc030-208c-11f0-bb30-f9e4c4d29f01"
+    },
+    "createdTime": 1745444856755,
+    "tenantId": {
+        "entityType": "TENANT",
+        "id": "2dbc6d90-2088-11f0-bb30-f9e4c4d29f01"
+    },
+    "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "6c350650-208c-11f0-bb30-f9e4c4d29f01"
+    },
+    "email": "Bob@group9.com",
+    "authority": "CUSTOMER_USER",
+    "firstName": "bob",
+    "lastName": null,
+    "phone": null,
+    "version": 1,
+    "name": "Bob@group9.com",
+    "additionalInfo": {
+        "description": "",
+        "defaultDashboardId": null,
+        "defaultDashboardFullscreen": false,
+        "homeDashboardId": null,
+        "homeDashboardHideToolbar": true
+    }
+}
+[INFO] Bob@group9.com - Using /customer/6c350650-208c-11f0-bb30-f9e4c4d29f01/devices
+[INFO] Bob@group9.com - Retrieved 2 device(s)
+[DEVICE] temperature (ID: 0b554a40-208a-11f0-bb30-f9e4c4d29f01)
+[DEVICE] co2 (ID: 22703500-208a-11f0-bb30-f9e4c4d29f01)
+
+=== Bob@group9.com - Telemetry for Device 0b554a40-208a-11f0-bb30-f9e4c4d29f01 ===
+{
+    "temperature": [
+        {
+            "ts": 1745454701472,
+            "value": "21.21"
+        }
+    ]
+}
+
+=== Bob@group9.com - Telemetry for Device 22703500-208a-11f0-bb30-f9e4c4d29f01 ===
+{
+    "temperature": [
+        {
+            "ts": 1745445703941,
+            "value": "29.89"
+        }
+    ],
+    "co2": [
+        {
+            "ts": 1745454705544,
+            "value": "22.83"
+        }
+    ]
+}

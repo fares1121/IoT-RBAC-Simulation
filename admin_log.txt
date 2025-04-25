@@ -1,0 +1,62 @@
+[INFO] Alice@group9.com - Authenticated successfully
+
+=== Alice@group9.com - User Profile ===
+{
+    "id": {
+        "entityType": "USER",
+        "id": "41c22910-2088-11f0-bb30-f9e4c4d29f01"
+    },
+    "createdTime": 1745443003937,
+    "tenantId": {
+        "entityType": "TENANT",
+        "id": "2dbc6d90-2088-11f0-bb30-f9e4c4d29f01"
+    },
+    "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "email": "Alice@group9.com",
+    "authority": "TENANT_ADMIN",
+    "firstName": "Alice",
+    "lastName": null,
+    "phone": null,
+    "version": 1,
+    "name": "Alice@group9.com",
+    "additionalInfo": {
+        "description": "",
+        "defaultDashboardId": null,
+        "defaultDashboardFullscreen": false,
+        "homeDashboardId": null,
+        "homeDashboardHideToolbar": true
+    }
+}
+[INFO] Alice@group9.com - Using /tenant/devices
+[INFO] Alice@group9.com - Retrieved 2 device(s)
+[DEVICE] temperature (ID: 0b554a40-208a-11f0-bb30-f9e4c4d29f01)
+[DEVICE] co2 (ID: 22703500-208a-11f0-bb30-f9e4c4d29f01)
+
+=== Alice@group9.com - Telemetry for Device 0b554a40-208a-11f0-bb30-f9e4c4d29f01 ===
+{
+    "temperature": [
+        {
+            "ts": 1745454701472,
+            "value": "21.21"
+        }
+    ]
+}
+
+=== Alice@group9.com - Telemetry for Device 22703500-208a-11f0-bb30-f9e4c4d29f01 ===
+{
+    "temperature": [
+        {
+            "ts": 1745445703941,
+            "value": "29.89"
+        }
+    ],
+    "co2": [
+        {
+            "ts": 1745454705544,
+            "value": "22.83"
+        }
+    ]
+}
